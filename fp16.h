@@ -1,5 +1,5 @@
-#ifndef __MY_FP16_h__
-#define __MY_FP16_h__
+#ifndef __MY_FP16_H__
+#define __MY_FP16_H__
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -12,4 +12,4 @@ FP16_t get_fp16(float f);
 #ifdef __cplusplus
 }
 #endif
-#endif /* __MY_FP16_h__ */
+#endif /* __MY_FP16_H__ */

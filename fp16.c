@@ -18,8 +18,9 @@
 #define FP16_ZERO(s) FP16_CONCAT(s, 0, 0)
 #define FP16_INF(s)  FP16_CONCAT(s, 0x1f, 0)
 
+
 /*
- * refs: https://ja.wikipedia.org/wiki/%E5%8D%8A%E7%B2%BE%E5%BA%A6%E6%B5%AE%E5%8B%95%E5%B0%8F%E6%95%B0%E7%82%B9%E6%95%B0
+ * https://en.wikipedia.org/wiki/Half-precision_floating-point_format
  */
 FP16_t get_fp16(float f)
 {

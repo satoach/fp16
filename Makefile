@@ -10,6 +10,6 @@ clean:
 	rm -rf $(TARGET) *.o
 
 test: $(TARGET)
-	sh ./test.sh
+	bash ./test.sh
 
 .PHONY: clean test
